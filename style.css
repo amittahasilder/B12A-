@@ -30,6 +30,9 @@
     font-size: 3rem;
     color: #4E47FF;
 }
+.logo:hover{
+    color: #000000;
+}
 
 
 .title{
@@ -48,7 +51,8 @@
 }
 
 .btn:hover {
-    background-color: #3730a3;
+    background-color: #000000;
+    color: white;
 }
 
 /* Hero Section */
@@ -113,6 +117,12 @@
   text-decoration: none;
   font-weight: 600;
 }
+
+.action-section .btn:hover{
+    background-color: #000000;
+ 
+}
+
 
 .image-box img {
   max-width: 100%;
@@ -274,7 +284,7 @@
   display: inline-block;
   padding: 12px 24px;
   background-color: #6366f1;
-  color: #fff;
+  color: #ffffff;
   font-weight: 500;
   border-radius: 8px;
   text-decoration: none;
@@ -282,7 +292,7 @@
 }
 
 .cta-button:hover {
-  background-color: #4f46e5;
+  background-color: #000000;
 }
 
 .image-wrapper {
@@ -371,7 +381,7 @@
 }
 
 .right-side form button:hover {
-  background-color: #4338ca;
+  background-color: #000000;
 }
 
 
@@ -390,6 +400,9 @@
   font-weight: 900;
   color: #4f46e5; 
   margin-bottom: 16px;
+}
+.footer .logo:hover{
+    color: #000000;
 }
 
 .footer .description {
