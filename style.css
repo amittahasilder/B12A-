@@ -16,7 +16,7 @@
 
 
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -139,6 +139,11 @@
   width: 100%;
 }
 
+.stats-container:hover{
+    background-color: #c0bde4;
+    color: #1100ff;
+}
+
 .stats-container h2 {
   font-size: 24px;
   color: #111827;
@@ -161,12 +166,18 @@
   
 }
 
+.stat-box h3:hover{
+    color: black;
+}
+
 .stat-box p {
   margin-top: -5px; 
   color: #6b7280;
   font-size: 14px;
 }
-
+.stat-box p:hover{
+    color: #362db1;
+}
 
 .review-section {
   background-color: #f7f9ff;
