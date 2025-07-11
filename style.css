@@ -1,0 +1,364 @@
+
+
+
+
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  /* font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+
+
+
+
+
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: transparent;
+    align-items: center;
+}
+
+.logo {
+    font-weight:900;
+    font-size: 3rem;
+    color: #4E47FF;
+}
+
+
+.title{
+    font-size: 50px;
+    font-size: xx-large;
+}
+
+.btn {
+    background-color: #4E47FF;
+    color: white;
+    padding: 15px 29px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3730a3;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.4;
+    color: #252432;
+    margin-bottom: 30px;
+}
+
+.btn.center {
+    display: inline-block;
+}
+
+.hero-1 {
+    background:url(./Assets/Hero-bg.png);
+    background-color: #f1f3f7;
+    color: #1a1a1a;
+}
+
+/* action section */
+
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #f8faff;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.action-section .content {
+  max-width: 450px;
+}
+
+.action-section h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.action-section p {
+  font-size: 16px;
+  color: #6a6980;
+  margin-bottom: 20px;
+}
+
+.action-section .btn {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: 90%;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.stats-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-container {
+  background-color: #e8eaff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.stats-container h2 {
+  font-size: 24px;
+  color: #111827;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-box h3 {
+  font-size: 52px;
+  color: #544ddd;
+  font-weight: 900;
+  font-family: sans-serif;
+  
+}
+
+.stat-box p {
+  margin-top: -5px; 
+  color: #6b7280;
+  font-size: 14px;
+}
+
+
+.review-section {
+  background-color: #f7f9ff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.review-section h2 {
+  font-size: 24px;
+  font-weight: 900;
+  color: #111827;
+  margin-bottom: 30px;
+}
+
+.review-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 280px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #ffcc00; 
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.review-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #111827;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* this is fcous section    */
+.focus-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9fbff;
+}
+
+.text-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6366f1;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #4f46e5;
+}
+
+.image-wrapper {
+  margin-top: 40px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* contack section */
+
+.contact-section {
+  background-color: #f5f7ff;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side h1 {
+  font-size: 58px;
+  line-height: 1.2;
+  color: #111;
+  font-weight: bolder;
+}
+
+.left-side h1 span {
+  font-weight: bold;
+}
+
+.right-side {
+  flex: 1;
+}
+
+.right-side form {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side form label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.right-side form input,
+.right-side form textarea {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fff;
+}
+
+.right-side form button {
+  padding: 12px 16px;
+  font-size: 14px;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.right-side form button:hover {
+  background-color: #4338ca;
+}
